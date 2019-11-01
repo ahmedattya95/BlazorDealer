@@ -1,0 +1,34 @@
+﻿@layout AuthLayout
+@page "/Login"
+@inherits LoginBase
+
+    <EditForm Model="Model" OnValidSubmit="async () => await LoginAsync()">
+        @if(Message != null)
+        {
+            <div class="alert alert-danger">
+                @Message
+            </div>
+        }
+        <div class="form-group">
+            <label>Email address</label>
+            <input type="email" @bind-value="Model.Email" class="form-control" placeholder="Email"/>
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" @bind="Model.Password" class="form-control" placeholder="Password"/>
+        </div>
+        <div class="checkbox">
+            <label class="pull-right">
+                <a href="/ForgetPassword">Forgotten Password?</a>
+            </label>
+        </div>
+        <button type="submit" disabled="@IsBusy" class="btn btn-success btn-flat m-b-30 m-t-30">Sign in</button>
+        
+        <div class="register-link m-t-15 text-center">
+            <p>Don't have account ? <a href="/Register"> Sign Up Here</a></p>
+        </div>
+    </EditForm>
+
+@code {
+
+}

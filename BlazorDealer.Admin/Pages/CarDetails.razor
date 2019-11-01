@@ -1,0 +1,38 @@
+﻿@page "/CarDetails/{id}"
+
+@inherits CarDetailsBase
+
+@if (IsBusy)
+{
+    <h2 style="text-align:center;margin:20px">Loading....</h2>
+}
+else
+{
+    <h2>@Car.Brand.Name @Car.Model @Car.Year</h2>
+    <h3 style="color:darkgreen">$@Car.Price</h3>
+    @if (Car.CarType.Name == "New")
+    {
+        <span class="badge badge-success">New</span>
+    }
+    else
+    {
+        <span class="badge badge-warning">Used</span>
+    }
+    <img src="@Car.PhotoPath" style="width:300px;margin:10px" />
+    <p>@Car.Description</p>
+    <hr />
+
+    <h2>Bookings</h2>
+    <div class="row">
+        @if (Car.Bookings != null)
+            @foreach (var item in Car.Bookings)
+            {
+
+            }
+    </div>
+
+}
+
+@code {
+
+}

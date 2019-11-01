@@ -1,0 +1,8 @@
+C:\Users\dell\source\repos\BlazorDealer\BlazorDealer.Models\bin\Debug\netstandard2.1\BlazorDealer.Models.deps.json
+C:\Users\dell\source\repos\BlazorDealer\BlazorDealer.Models\bin\Debug\netstandard2.1\BlazorDealer.Models.dll
+C:\Users\dell\source\repos\BlazorDealer\BlazorDealer.Models\obj\Debug\netstandard2.1\BlazorDealer.Models.csprojAssemblyReference.cache
+C:\Users\dell\source\repos\BlazorDealer\BlazorDealer.Models\obj\Debug\netstandard2.1\BlazorDealer.Models.AssemblyInfoInputs.cache
+C:\Users\dell\source\repos\BlazorDealer\BlazorDealer.Models\obj\Debug\netstandard2.1\BlazorDealer.Models.AssemblyInfo.cs
+C:\Users\dell\source\repos\BlazorDealer\BlazorDealer.Models\bin\Debug\netstandard2.1\BlazorDealer.Models.pdb
+C:\Users\dell\source\repos\BlazorDealer\BlazorDealer.Models\obj\Debug\netstandard2.1\BlazorDealer.Models.dll
+C:\Users\dell\source\repos\BlazorDealer\BlazorDealer.Models\obj\Debug\netstandard2.1\BlazorDealer.Models.pdb

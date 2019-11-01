@@ -1,0 +1,11 @@
+C:\Users\dell\source\repos\BlazorDealer\BlazorDealer.Client\bin\Debug\netstandard2.1\BlazorDealer.Client.deps.json
+C:\Users\dell\source\repos\BlazorDealer\BlazorDealer.Client\bin\Debug\netstandard2.1\BlazorDealer.Client.dll
+C:\Users\dell\source\repos\BlazorDealer\BlazorDealer.Client\bin\Debug\netstandard2.1\BlazorDealer.Client.pdb
+C:\Users\dell\source\repos\BlazorDealer\BlazorDealer.Client\bin\Debug\netstandard2.1\BlazorDealer.Models.dll
+C:\Users\dell\source\repos\BlazorDealer\BlazorDealer.Client\bin\Debug\netstandard2.1\BlazorDealer.Models.pdb
+C:\Users\dell\source\repos\BlazorDealer\BlazorDealer.Client\obj\Debug\netstandard2.1\BlazorDealer.Client.csprojAssemblyReference.cache
+C:\Users\dell\source\repos\BlazorDealer\BlazorDealer.Client\obj\Debug\netstandard2.1\BlazorDealer.Client.AssemblyInfoInputs.cache
+C:\Users\dell\source\repos\BlazorDealer\BlazorDealer.Client\obj\Debug\netstandard2.1\BlazorDealer.Client.AssemblyInfo.cs
+C:\Users\dell\source\repos\BlazorDealer\BlazorDealer.Client\obj\Debug\netstandard2.1\BlazorDealer.Client.csproj.CopyComplete
+C:\Users\dell\source\repos\BlazorDealer\BlazorDealer.Client\obj\Debug\netstandard2.1\BlazorDealer.Client.dll
+C:\Users\dell\source\repos\BlazorDealer\BlazorDealer.Client\obj\Debug\netstandard2.1\BlazorDealer.Client.pdb

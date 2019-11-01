@@ -1,0 +1,18 @@
+﻿@page "/"
+@inherits IndexBase
+<h1>Welcome to the Dashboard</h1>
+
+
+<div class="row">
+    @foreach (var item in Bookings)
+    {
+        <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="images/testdrive.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title mb-3">@item</h4>
+                    </div>
+                </div>
+        </div>
+    }
+</div>

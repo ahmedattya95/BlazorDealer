@@ -1,0 +1,75 @@
+﻿@page "/Brand"
+
+@using System.IO
+@inherits BrandsBase
+
+<div class="row">
+    <div class="col-6">
+        <div class="card-header">
+            <strong>Add new Brand</strong>
+        </div>
+        <div class="card-body card-block">
+            <div class="alert @AlertClass">
+                @Message
+            </div>
+
+            <EditForm class="form-horizontal" Model="Model" OnValidSubmit="async () => await InsertBrandAsync()">
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label class="form-control-label">Name</label>
+                    </div>
+                    <div class="col col-md-9">
+                        <input type="text" @bind="Model.Name" class="form-control" placeholder="Name" />
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label class="form-control-label">Country</label>
+                    </div>
+                    <div class="col col-md-9">
+                        <input type="text" @bind="Model.Country" class="form-control" placeholder="Country" />
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label class="form-control-label">Brand Icon</label>
+                    </div>
+                    <div class="col col-md-9">
+                        <input type="file" @ref="inputReference"  @onchange="async () => await ReadFileAsync()"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <button class="btn btn-success btn-block" disabled="@IsBusy" @onclick="async () => await InsertBrandAsync()">Insert</button>
+                </div>
+            </EditForm>
+        </div>
+    </div>
+</div>
+@if (IsBusy)
+{
+    <h3 class="text-center" style="margin:50px">Loading...</h3>
+}
+else
+{
+    <div class="animated fadeIn">
+        <div class="row">
+            @foreach (var item in brands)
+            {
+                <div class="col-md-2">
+                    <div class="card">
+                        <img class="card-img-top" src="@item.IconPath" alt="@item.Name">
+                        <div class="card-body">
+                            <h4 class="card-title mb-3">@item.Name</h4>
+                            <p class="card-text">@item.Country</p>
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div>
+}
+
+@code {
+
+}
